@@ -1,0 +1,34 @@
+{
+    "name": "TurnControls",
+    "maps": [
+        {
+            "name": "TurnControlsMap",
+            "id": "aaf8d87f-bb24-4fa5-a8b4-8bb4d8b7efe2",
+            "actions": [
+                {
+                    "name": "StartTurn",
+                    "type": "Button",
+                    "id": "78192e35-e55e-4679-86a7-a1409d8f610e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e284ac28-4141-4fd1-a344-b9113dbf4123",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartTurn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
